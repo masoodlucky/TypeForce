@@ -18,7 +18,7 @@
 
 ## 🖼️ Screenshot
 
-> ![TypeSecure Screenshot](Screenshot.png)
+> ![TypeSecure Screenshot]([Screenshot.png](https://github.com/masoodlucky/TypeForce/blob/main/TypeForce/Screenshot.png))
 
 ---
 
