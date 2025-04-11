@@ -18,7 +18,7 @@
 
 ## 🖼️ Screenshot
 
-> ![TypeSecure Screenshot]("C:\Users\masoo\OneDrive\Pictures\Screenshots 1\Screenshot 2025-04-11 214251.png")
+> ![TypeSecure Screenshot](screenshot.png)
 
 ---
 
