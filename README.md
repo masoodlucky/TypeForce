@@ -18,7 +18,7 @@
 
 ## 🖼️ Screenshot
 
-> ![TypeSecure Screenshot](screenshot.png)
+> ![TypeSecure Screenshot](Screenshot.png)
 
 ---
 
