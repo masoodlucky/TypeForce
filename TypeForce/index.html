@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Speed Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Typing Speed Test</h1>
+    
+    <div class="difficulty-selector">
+      <h3>Difficulty Level:</h3>
+      <div class="level-buttons">
+        <button id="easyLevel" class="level-btn">Easy</button>
+        <button id="mediumLevel" class="level-btn active">Medium</button>
+        <button id="hardLevel" class="level-btn">Hard</button>
+      </div>
+    </div>
+    
+    <div id="quoteDisplay"></div>
+    
+    <textarea id="input" rows="3" placeholder="Start typing here..."></textarea>
+    
+    <div class="stats">
+      <p><strong>Time:</strong> <span id="time">0</span>s</p>
+      <p><strong>WPM:</strong> <span id="wpm">0</span></p>
+      <p><strong>Accuracy:</strong> <span id="accuracy">0</span>%</p>
+    </div>
+    
+    <button id="restart">Restart</button>
+
+    <div class="settings">
+        <label><input type="checkbox" id="soundToggle"> Enable Sound Effects</label>
+        <label><input type="checkbox" id="matrixToggle"> Enable Matrix Animation</label>
+        <label><input type="checkbox" id="darkModeToggle"> Dark Mode</label>
+      </div>
+    
+    <div class="leaderboard">
+      <h2>Leaderboard</h2>
+      <table id="leaderboardTable">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>WPM</th>
+            <th>Accuracy</th>
+            <th>Level</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="leaderboardBody"></tbody>
+      </table>
+    </div>
+  </div>
+  
+  <div id="countdown" class="countdown-overlay">
+    <div class="countdown-number">3</div>
+  </div>
+  
+  <canvas id="matrixCanvas"></canvas>
+  
+  <audio id="keySound" src="https://www.soundjay.com/buttons/sounds/button-09.mp3" preload="auto"></audio>
+  <audio id="correctSound" src="https://www.soundjay.com/buttons/sounds/button-10.mp3" preload="auto"></audio>
+  
+  <script src="script.js"></script>
+</body>
+</html>
